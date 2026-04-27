@@ -1,0 +1,10 @@
+.git
+.gitignore
+.vscode
+**/*.md
+**/*.yaml
+lib
+fonts
+.env
+.envrc
+intake_test.hive

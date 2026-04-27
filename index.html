@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpenNutriTracker</title>
+    <style>
+      :root {
+        --bg: #f3f6ef;
+        --card: #ffffff;
+        --text: #162317;
+        --muted: #4e6751;
+        --accent: #2e8b57;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: radial-gradient(circle at top right, #dff3d9 0%, var(--bg) 55%);
+        color: var(--text);
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+      .card {
+        width: min(760px, 100%);
+        background: var(--card);
+        border-radius: 20px;
+        padding: 28px;
+        box-shadow: 0 14px 45px rgba(22, 35, 23, 0.12);
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .brand img {
+        width: 56px;
+        height: 56px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 30px;
+      }
+      p {
+        color: var(--muted);
+        line-height: 1.6;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 18px;
+      }
+      a.btn {
+        display: inline-block;
+        padding: 10px 14px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      a.primary {
+        background: var(--accent);
+        color: #fff;
+      }
+      a.secondary {
+        background: #e8f4e7;
+        color: #1e5f3c;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <div class="brand">
+        <img src="assets/icon/ont_logo_square.svg" alt="OpenNutriTracker logo" />
+        <h1>OpenNutriTracker</h1>
+      </div>
+      <p>
+        OpenNutriTracker has been deployed to Google Cloud Run successfully.
+        This lightweight web entry is served from your repository deployment.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="https://github.com/yashwanthprabhu07/AMD" target="_blank" rel="noreferrer">View GitHub Repo</a>
+        <a class="btn secondary" href="https://play.google.com/store/apps/details?id=com.opennutritracker.ont.opennutritracker" target="_blank" rel="noreferrer">Play Store</a>
+      </div>
+    </main>
+  </body>
+</html>
