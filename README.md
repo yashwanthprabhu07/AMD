@@ -1,77 +1,85 @@
-<p align="center">
-  <img alt="Logo" src="assets/icon/ont_logo_square.png" width="128" />
-  <h1 align="center">OpenNutriTracker</h1>
-</p>
+<!-- @format -->
 
-<p align="center">
-  <a href="https://opensource.org/licenses/MIT" alt="License">
-        <img src="https://img.shields.io/badge/license-GPLv3-blue" /></a>
-  <a href="https://github.com/simonoppowa/OpenNutriTracker/stargazers" alt="GitHub Stars">
-        <img src="https://img.shields.io/github/stars/simonoppowa/OpenNutriTracker.svg" /></a>
-  <a href="https://github.com/simonoppowa/OpenNutriTracker/issues" alt="GitHub Issues">
-        <img src="https://img.shields.io/github/issues/simonoppowa/OpenNutriTracker.svg" /></a>
-  <a href="https://github.com/simonoppowa/OpenNutriTracker/pulls" alt="GitHub Pull Requests">
-        <img src="https://img.shields.io/github/issues-pr/simonoppowa/OpenNutriTracker.svg" /></a>
-</p>
+🍎 OpenNutriTracker
 
-## Description
-OpenNutriTracker is an open-source mobile application designed to simplify nutritional tracking and management. Whether you are looking to improve your health, lose weight, or simply maintain a balanced diet, OpenNutriTracker provides a minimalistic interface to easily track and analyze your daily nutrition.
+<p align="center"> <img alt="Logo" src="assets/icon/ont_logo_square.png" width="128" /> </p> <p align="center"> <a href="https://opensource.org/licenses/GPL-3.0" alt="License"> <img src="https://img.shields.io/badge/license-GPLv3-blue" /></a> <a href="#" alt="GitHub Stars"> <img src="https://img.shields.io/github/stars/your-repo.svg" /></a> <a href="#" alt="GitHub Issues"> <img src="https://img.shields.io/github/issues/your-repo.svg" /></a> <a href="#" alt="GitHub Pull Requests"> <img src="https://img.shields.io/github/issues-pr/your-repo.svg" /></a> </p>
+📌 Description
 
-[Website](https://simonoppowa.github.io/OpenNutriTracker-Website/)
+OpenNutriTracker is a lightweight, open-source mobile application designed to simplify nutritional tracking and healthy habit building.
 
-## Screenshots
-Screenshots were removed from this trimmed repository package.
+It focuses on minimalism, privacy, and usability, helping users:
 
-## Install
-- App Store: https://apps.apple.com/us/app/opennutritracker/id6451490901
-- Play Store: https://play.google.com/store/apps/details?id=com.opennutritracker.ont.opennutritracker
+Track daily nutrition effortlessly
+Build consistent eating habits
+Make smarter food decisions
 
-## Key Features
-- **🍎 Nutritional Tracking:** Easily log your meals and snacks, and access a vast database of food items and ingredients to get detailed nutritional information.
-- **📓 Food Diary:** Maintain a comprehensive food diary to keep track of your daily food consumption, habits, and progress.
-- **🍽️ Custom Meals:** Plan your meals in advance, create personalized meal plans, and optimize them according to your dietary goals.
-- **📷 Barcode Scanner:** Scan barcodes on packaged food items to instantly retrieve their nutritional information.
-- **🔒 Privacy Focused:** OpenNutriTracker prioritizes the privacy its users. It does not collect or share any personal data without your consent.
-- **🚫💰 No Subscription, In-App Purchases, or Ads:** OpenNutriTracker is completely free to use, without any subscription fees, in-app purchases, or intrusive advertisements.
+Whether your goal is weight gain, weight loss, or balanced living, this app acts like your silent nutrition companion.
 
-## Privacy
-See [Data Protection](https://www.iubenda.com/privacy-policy/53501884)
-- **Data Encryption**: All collected user data is encrypted and stored locally on your device
-- **Minimal Data Collection**: OpenNutriTracker only collects the necessary information required for tracking nutrition and providing personalized insights. Your data will not be shared with third parties without your consent.
-- **Open-Source**: OpenNutriTracker is an open-source application
+🚀 Installation
+📱 Play Store: https://play.google.com/store/apps/details?id=com.opennutritracker.ont.opennutritracker
+🍏 App Store: https://apps.apple.com/us/app/opennutritracker/id6451490901
+✨ Key Features
+🍎 Nutritional Tracking
 
-## TODOs
-- ~~Add serving sizes to meals~~
-- ~~Add Imperial unit support~~
-- Add support for Material You themes
+Log meals and snacks easily with access to a rich food database.
 
-## Contribution
-Contributions to OpenNutriTracker are welcome! If you find any issues or have suggestions for new features, please open an issue or submit a pull request. Make sure to follow the project's code style and guidelines.
+📓 Food Diary
 
-Thanks to all the contributors:
-<a href="https://github.com/simonoppowa/OpenNutriTracker/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=simonoppowa/OpenNutriTracker" />
-</a>
+Track daily eating patterns and monitor progress over time.
 
-### Getting Started With Development
-See the [Getting Started](GettingStarted.md) file for more information.
+🍽️ Custom Meals
 
-## Disclaimer
-OpenNutriTracker is not a medical application. All data provided is not validated and should be used with caution. Please maintain a healthy lifestyle and consult a professional if you have any problems. Use during illness, pregnancy or lactation is not recommended.
+Create and manage personalized meal plans tailored to your goals.
 
-The application is still under construction. Errors, bugs and crashes might occur.
+📷 Barcode Scanner
 
-## Acknowledgments
-The OpenNutriTracker project was inspired by the need for a simple and effective nutrition tracking tool.
-The food database used in OpenNutriTracker is powered by [Open Food Facts](https://world.openfoodfacts.org/) and [Food Data Central](https://fdc.nal.usda.gov/).
+Scan packaged foods to instantly fetch nutritional details.
 
-## License
-This project is licensed under the GNU General Public License v3.0 License. See the [LICENSE](LICENSE) file for more information.
+🔒 Privacy First
 
-## Contact
-For questions, suggestions, or collaborations, feel free to contact the project maintainer:
+All user data is stored locally and never shared without consent.
 
-Simon Oppowa
+🚫 No Ads, No Subscriptions
 
-- GitHub: [@simonoppowa](https://github.com/simonoppowa)
-- Email: [opennutritracker-dev@pm.me](mailto:opennutritracker-dev@pm.me)
+Completely free with zero distractions or hidden costs.
+
+🔐 Privacy
+Local Storage: Data stays on your device
+Encryption: User data is securely encrypted
+Minimal Collection: Only essential data is used
+No Third-Party Sharing
+🛠️ Roadmap (TODOs)
+✅ Add serving sizes to meals
+✅ Add Imperial unit support
+🔄 Add Material You theme support
+🧑‍💻 Development
+
+To get started with development:
+
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+
+Refer to GettingStarted.md for setup instructions.
+
+⚠️ Disclaimer
+
+This is not a medical application. Nutritional data may not always be fully accurate.
+
+Do not rely on it for medical decisions
+Consult professionals when necessary
+Not recommended during pregnancy, illness, or special conditions
+📚 Data Sources
+
+This project uses open nutrition databases:
+
+Open Food Facts
+Food Data Central
+📄 License
+
+This project is licensed under the GNU General Public License v3.0.
+
+📬 Contact
+
+Yashwanth Prabhu R
+
+Email: yashwanthprabhu2007@gmail.com
